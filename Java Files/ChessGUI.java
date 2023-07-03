@@ -895,6 +895,7 @@ public class ChessGUI
 		//Add panel to frame.
 		jf_main.getContentPane().add(new ChessBoard());
 		try {
+			//Change path, image included
 			jf_main.setIconImage(ImageIO.read(new File("C:\\\\Users\\\\Aman\\\\Downloads\\\\coool.jpg")));
 		} catch (IOException e) {
 			e.printStackTrace();
